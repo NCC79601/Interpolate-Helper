@@ -1,1 +1,1 @@
-from .helper import Interpolator
+from .interpolator import Interpolator
