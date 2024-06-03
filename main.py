@@ -1,5 +1,5 @@
-from interpolate_helper import InterpolateHelper
+from interpolate_helper import Interpolator
 
-helper = InterpolateHelper('./data.csv')
+helper = Interpolator('./test_data.csv')
 
 print(helper.interpolate(160))
